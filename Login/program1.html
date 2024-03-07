@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Page</title>
+    <link rel="StyleSheet" href="style.css">
+</head>
+<body>
+    <div class="outerbox">
+        <div class="innerbox">
+            <header class="SignUp-header">
+                <h1>SignUp</h1>
+                <p> it takes 30 Secound</p>
+            </header>
+          <main class="SignUp-body">
+           <form action="#">
+            <p>
+                <label for="Full_Name">Full Name</label>
+                <input type="text " id="Full_Name" placeholder="Enter the name">
+                <h4 id="error1"></h4>
+               
+            </p>
+
+            <p>
+                <label for="Email">Email</label>
+                <input type="text " id="Email" placeholder="Enter the Email">
+                <h4 id="error2"></h4>
+            </p>
+
+            <p>
+                <label for="Phone">Phone No</label>
+                <input type="text" id="Phone" placeholder="At least 10 characters">
+                <h4 id="error3"></h4>
+            </p>
+
+            <p>
+                
+                <input type="submit" id="submit" value= "Create Acount" onclick="mylogin()">
+            </p>
+           </form>
+          </main>
+          <footer class="SignUp-footer">
+            <p>Already have an account <a href="#">Login</a></p>
+          </footer>
+        </div>
+    </div> 
+    <script src="index.js"></script>
+</body>
+</html>
